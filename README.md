@@ -9,7 +9,7 @@ composer require fast-elephant/laravel-lakala
 
 publish
 ```
-php artisan vendor:publish --provider="FastElephant\LaravelLakala\LaravelLakalaServiceProvider"
+php artisan vendor:publish --tag=lakala-config
 ```
 
 usage
