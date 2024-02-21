@@ -4,7 +4,7 @@ namespace FastElephant\LaravelLakala;
 
 use Illuminate\Support\ServiceProvider;
 
-class LaravelLakalaServiceProvider extends ServiceProvider
+class LakalaServiceProvider extends ServiceProvider
 {
     /**
      * Register services.
@@ -24,6 +24,6 @@ class LaravelLakalaServiceProvider extends ServiceProvider
     {
         $this->publishes([
             __DIR__ . '/../config/lakala.php' => config_path('lakala.php'),
-        ]);
+        ], 'lakala-config');
     }
 }
