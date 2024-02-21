@@ -1,0 +1,22 @@
+{
+    "name": "fast-elephant/laravel-lakala",
+    "description": "lakala pay",
+    "type": "library",
+    "homepage": "http://github.com/fast-elephant/laravel-lakala",
+    "authors": [
+        {
+          "name": "breadbug",
+          "email": "2444947559@qq.com"
+        }
+      ],
+    "keywords": ["laravel", "lakala"],
+    "license": "MIT",
+    "require": {
+        "illuminate/support": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "FastElephant\\LaravelLakala\\": "src/"
+        }
+    }
+}
