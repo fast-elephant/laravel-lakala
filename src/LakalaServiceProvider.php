@@ -24,6 +24,6 @@ class LakalaServiceProvider extends ServiceProvider
     {
         $this->publishes([
             __DIR__ . '/../config/lakala.php' => config_path('lakala.php'),
-        ], 'lakala-config');
+        ]);
     }
 }
